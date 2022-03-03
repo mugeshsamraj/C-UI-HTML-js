@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+
+    
+  console.log("easy 1");
+
+  let num1=5, num2=13, num3=7, num4=21 ,num5=48.
+  let sum=num1+num2+num3+num4+num5;
+  console.log(sum);
+
+  console.log("easy 2");
+
+  /*const input = prompt("please enter the number ");
+  alert(`Your number is ${input}`);
+  if(input % 2 == 0)
+  {
+    console.log(+input +" number is Even" );
+  }
+  else{
+    console.log(input+" number is odd" );
+  }*/
+
+  console.log("easy 3");
+  {let num1=129,num2=251;
+    if(num1>num2)
+    {
+      console.log("num1 is greater ");
+    }
+    else{
+      console.log("num2 is greater ");
+    }
+  }
+  
+  console.log("easy 4");
+  {let num1=8, num2=23, num3=17;
+    if(num1>num2 & num1 > num3)
+    {
+      console.log("num1 is greater ");
+    }
+    else if(num2>num3 && num2>num1){
+      console.log("num2 is greater ");
+    }
+    else{
+      console.log("num3 is greater ");
+    }
+  }
+  
+  console.log("easy 5");
+  {let num1=35, num2=29, num3=46;
+    if(num1<num2 & num1 < num3)
+    {
+      console.log("num1 is lesser ");
+    }
+    else if(num2<num3 && num2<num1){
+      console.log("num2 is lesser ");
+    }
+    else{
+      console.log("num3 is lesser ");
+    }
+  }
+
+  /*const input = prompt("please enter the month ");
+  let jan,mar,may,july,aug,oct,dec;
+  let feb,apr,jun,sep,nov;
+  alert(`Your month is ${input}`);
+  if(input == jan && mar && may && july && aug && oct && dec)
+  {
+    console.log(+input +" month has 31 days" );
+  }
+  else(input == feb && apr && jun && sep && nov)
+  {
+    console.log(input+" month not has 31 days " );
+  }*/
+
+  console.log("intermediate 1");
+  {
+    for(i=0;i<=100;i++)
+    {
+      
+      if(i%3==0 && i%5==0)
+      {
+        console.log("FizzBuzz");
+      }
+      else if(i%3==0 || i%5==0)
+      {
+        console.log("Fizz");
+      }
+      else{console.log(i);}
+    }
+  }
+
+  console.log("intermediate 2");
+  let n=5;
+  for(i=1;i<=n;i++)
+  {
+    for(j=1;j<=i;j++){
+      console.log("*");
+    }
+    console.log("\n");
+  }
+
+  /*console.log("intermediate 3");
+  {
+    const input = prompt("please enter the number ");
+    let num =input*12;
+    console.log(input+" multiply of 12 "+num);
+  }*/
+
+  /*console.log("program to take an input from a user and find its fibonacci");
+  function fibonacci(num)
+  {
+    let num1=0;
+    let num2=1;
+    let sum;
+    for(i=0; i<num;i++)
+    { 
+      sum=num1+num2;
+      num1=num2;
+      num2=sum;
+      i++;
+    }
+    console.log(sum);
+    return num2;
+    }
+      console.log("the Fibonacci of " +fibonacci(8) );
+      */
+    
+  
+
+  /*console.log("program to take an input from a user and find its Factorial");
+  {
+    let i,n,fact=1;
+    const input = prompt("please enter the number to Factorial ");
+    n=input;
+    for(i=1;i<=n;i++)
+    { 
+      fact=fact*i;
+    }
+      console.log("the Factorial of " +n +" is " +fact);
+    
+  }*/
+
+  /*console.log("a Program to take a number input from user and find if the number is Prime or not.");
+  import {sqrt } from 'mathjs'
+  function isPrime(num)
+
+  {
+    if (num <=1 )
+    return false;
+    if(num %2 == 0)
+    return false;
+    const s= math.sqrt (num);
+    for(i=3;i<=s;i+2){
+    if(num % i === 0 )
+    return false;
+    }
+  return true;
+  }
+  console.log(isPrime(121));*/
+
+  console.log("a program to take a day as an input and determine whether it is a weekday or weekend");
+  let saturday,sunday;
+  const input = prompt("please enter the day ");
+  if(input == saturday && sunday )
+  {
+    console.log(input+" enter day is weekend");
+  }
+  else
+  {
+    console.log(input+ " enter day is weekday")
+  }
+  </script>
+</body>
+</html>
